@@ -1,0 +1,12 @@
+{
+  "email": {
+    "notValid": "Email não é válido.",
+    "alreadyExists": "Email já existe."
+  },
+  "username": {
+    "notValid": "Nome deve conter pelo menos duas palavras."
+  },
+  "accessLink": {
+    "notValid": "Link de acesso não é válido."
+  }
+}

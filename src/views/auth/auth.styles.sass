@@ -1,0 +1,39 @@
+@import "@constants/constants.styles"
+
+#authBlock
+  display: flex
+  flex-direction: row
+  align-self: center
+  background-color: #ddd
+  border-radius: $standard-border-radius + 2px
+  width: fit-content
+
+  @media #{$mobile-media}
+    flex-direction: column
+    margin: 0 20px
+    width: 90%
+
+.authFormBlock
+  width: 300px
+  box-sizing: border-box
+  padding: 12px
+
+  @media #{$mobile-media}
+    width: 100%
+
+.horizontalLine
+  width: 1px
+  height: 90%
+  background-color: white
+  align-self: center
+
+  @media #{$mobile-media}
+    width: 95%
+    height: 1px
+
+.title
+  margin-top: 0
+  margin-bottom: 15px
+  padding: 0
+  font-size: 1.5rem
+  font-weight: 700

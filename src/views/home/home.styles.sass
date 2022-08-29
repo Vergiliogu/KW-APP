@@ -1,0 +1,35 @@
+@import "@constants/constants.styles"
+
+#homeBlock
+  align-self: center
+  background-color: #ddd
+  border-radius: $standard-border-radius + 2px
+  width: fit-content
+  min-width: 400px
+  padding: 12px
+
+  @media #{$mobile-media}
+    margin: 0 20px
+    width: 90%
+    min-width: none
+
+.shoeCaseBlock
+  padding: 10px
+  background-color: white
+  border: 1px solid black
+  border-radius: 5px
+  color: black
+
+.showCaseLabel
+  margin: 10px 0 5px 0
+  padding: 0
+  font-weight: 700
+
+.buttonContainer
+  margin-top: 20px
+  justify-content: space-between
+  display: flex
+  flex-direction: column
+
+  button:first-of-type
+    margin-bottom: 12px
